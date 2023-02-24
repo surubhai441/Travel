@@ -1,0 +1,104 @@
+:root{
+    --headerHeight: 70px;
+}
+header{
+    width: 100vw;
+    height: var(--headerHeight);
+    display: flex;
+    background-color: #393939a7 !important;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    background-color: transparent;
+    z-index: 1;
+    font-family: var(--headerFontFamily);
+    transition: .3s ease-in-out;
+}
+.header-shade{
+    background-color: #393939a7;
+}
+.navbar{
+    
+    width: 100vw;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding:10px;
+    max-height: var(--headerHeight);
+}
+#hamburger{
+    padding: 2px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    display: none;
+    left:0;
+    margin-left: 25px;
+    position: absolute;
+}
+.burgerLine{
+    width: 20px;
+    height: 4px;
+    margin: 2px;
+    display: block;
+    background-color: #393939;
+    border-radius: 2px;
+}
+.navWrapper{
+    width: 85%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.leftNav{
+    width:65%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.leftNav ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.leftNav ul li a{
+    padding: 0 10px;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1.5rem;
+    word-spacing: 0px;
+    transition: .3s ease-in-out;
+}
+.leftNav ul li a:hover{
+    border-bottom: 2px solid black;
+    border-radius: 10px;
+    /* background-color: rgb(255, 162, 0); */
+    /* border-radius: 20px;
+    color: black; */
+    transition: 0.3s ease-in-out;
+    
+}
+.rightNav{
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contactNum{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    gap:9px;
+    color: #fff;
+    font-family: var(--headerFontFamily);
+    cursor: pointer;
+}
+#contactNumber{
+    color: #fff;
+}
+#contactIcon ion-icon{
+    font-size: 1.7rem;
+    color: #fff;
+}

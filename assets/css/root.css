@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Noto+Serif&family=Roboto+Mono&family=Tilt+Prism&display=swap');
+html{
+    scroll-behavior: smooth;
+}
+body{
+    overflow-x: hidden;
+}
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: #393939;
+}
+:root{
+    --headerFontFamily:'Noto Serif', serif;
+    --headerHeight: 70px;
+    --mainBodyTextFont:'Noto Serif', serif;
+    --mainBodyDescText: 'Dancing Script', cursive;
+}
