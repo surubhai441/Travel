@@ -11,7 +11,7 @@ header{
     position: fixed;
     background-color: transparent;
     z-index: 1;
-    font-family: var(--headerFontFamily);
+    font-family: var(--mainBodyTextFont);
     transition: .3s ease-in-out;
 }
 .header-shade{
@@ -92,7 +92,7 @@ header{
     font-size: 1.5rem;
     gap:9px;
     color: #fff;
-    font-family: var(--headerFontFamily);
+    font-family: var(--mainBodyTextFont);
     cursor: pointer;
 }
 #contactNumber{

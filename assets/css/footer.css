@@ -1,0 +1,19 @@
+.footer-banner{
+    display: flex;
+    gap: 600px;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 14rem;
+    background-color: rgb(252, 181, 0);
+
+}
+.banner-btn{
+    padding: 5px 10px;
+    cursor: pointer;
+    background-color: transparent;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 6px;
+    color: white;
+    font-family: var(--mainBody);
+}

@@ -49,6 +49,7 @@
     outline: none;
     padding: 3px 5px;
     user-select: none;
+    font-family: var(--mainBodySupportText);
 }
 
 .big-btn .btn,
@@ -63,7 +64,7 @@
     border-radius: 4rem;
     cursor: pointer;
     border: none;
-    background-image: linear-gradient(to right,red,blue,yellow);
+    background-image: linear-gradient(to bottom right,red,blue,yellow);
     color: #f7f9f9;
     font-weight: 600;
     transition: .3s ease-in-out;
@@ -72,7 +73,7 @@
 .big-btn .btn:hover ,
 #readMore:hover{
     box-shadow: inset -2px 2px 10px rgba(0, 0, 0, 0.4), inset 2px -2px 10px rgba(0, 0, 0, 0.3), inset -2px -2px 10px rgba(0, 0, 0, 0.2);
-    color: #f0b000;
+    color: #0cc9ea;
 }
 
 .videoLink {
@@ -141,18 +142,23 @@
 
 .introHeading {
     font-size: 5rem;
+    font-family: var(--mainSubHeadingText);
 }
 
 .introDesc p {
     font-size: 1.5rem;
     text-align: center;
-    font-family: var(--mainBodyDescText);
+    font-family: var(--headerFontFamily);
 }
 
 .introDesc p a {
     text-decoration: none;
     font-weight: 600;
-    color: #010101c6;
+    color: #000000c6;
+    transition: .3s ease-in-out;
+}
+.introDesc p a:hover{
+    color: rgba(4, 140, 252, 0.984);
 }
 .servicesCardsWrapper {
     display: flex;
@@ -191,15 +197,15 @@
     transition: .3s ease-in-out;
 }
 .card:hover{
-    background-color: #f6fcc5df;
+    background-color: #f3f5e4df;
 }
 .card.active {
-    background-color: #e7e7e7e6;
+    background-color: #dad5d5e6;
 }
 
 .card-icon ion-icon {
     font-size: 2rem;
-    color: #ff8800;
+    color: #ff0800;
 }
 
 .card-icon.pricing ion-icon {
@@ -208,12 +214,14 @@
 
 .card-heading {
     font-size: 1.059rem;
-    font-weight: 600;
+    font-weight: 700;
+    font-family: var(--mainBodyDescText);
 }
 
 .card-desc {
     font-size: 1rem;
-    color: #717171;
+    color: #0c0808;
+    font-family: ;
 }
 
 .indicator-wrapper {
@@ -226,12 +234,12 @@
     width: 7px;
     height: 7px;
     border-radius: 50%;
-    border: .5px solid rgb(231, 142, 0);
+    border: .5px solid rgb(255, 3, 3);
     cursor: pointer;
 }
 
 .indicator.active {
-    background-color: #ff8800;
+    background-color: #f80505;
 }
 
 /* Intro Div CSS End */
@@ -256,12 +264,12 @@
 .destinationHeading {
     font-size: 4.5rem;
     font-weight: 600;
-    color: #010101;
+    color: #021b22;
 }
 
 .destinationDesc {
     font-size: 1.8rem;
-    color: #565656;
+    color: #4e4b4b;
 }
 
 .searchBoxWrapper {
@@ -330,7 +338,7 @@ input[type="search"]::-webkit-search-results-decoration {
     gap: 20px;
 }
 .destinationCard{
-    background-color: #a6a6a6;
+    background-color: #8d8585;
     width: 13rem;
     height: 13rem;
     border-radius: .2rem;
@@ -347,6 +355,7 @@ input[type="search"]::-webkit-search-results-decoration {
     position: absolute;
     color: #fff;
     font-weight: 600;
+    font-family: var(--mainBodySupportText);
     font-size: 1.7rem;
     opacity: 0;
     transition: .3s ease-in-out;
@@ -514,7 +523,7 @@ input[type="search"]::-webkit-search-results-decoration {
     width: 9.5rem;
     justify-content: center;
     align-items: center;
-    border:1px solid red;
+    border:1px solid rgb(18, 18, 18);
     border-radius: 1rem;
 }
 .clientReviewCardImage img{

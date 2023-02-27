@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Noto+Serif&family=Roboto+Mono&family=Tilt+Prism&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gloock&family=Lobster&family=Passion+One&family=Sancreek&family=Tilt+Prism&family=Vidaloka&display=swap');
 html{
     scroll-behavior: smooth;
 }
@@ -12,8 +12,10 @@ body{
     color: #393939;
 }
 :root{
-    --headerFontFamily:'Noto Serif', serif;
+    --headerFontFamily:'Lobster', cursive;
     --headerHeight: 70px;
-    --mainBodyTextFont:'Noto Serif', serif;
-    --mainBodyDescText: 'Dancing Script', cursive;
+    --mainBodyTextFont: 'Gloock', serif;
+    --mainBodyDescText: 'Sancreek', cursive;
+    --mainBodySupportText: 'Tilt Prism', cursive;
+    --mainSubHeadingText: 'Passion One', cursive;
 }
