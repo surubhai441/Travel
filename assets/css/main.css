@@ -14,11 +14,8 @@
      #ff6b08, #cf23cf, #eedd44);
      /* -webkit-text-fill-color: transparent; 
     background-clip: text; */
-    background: linear-gradient(to right, #ee2323,
-                    #d918bc, #1e35bb, #e46f08);
-            -webkit-text-fill-color: transparent;
-            -webkit-background-clip: text;
-    
+    text-shadow: 5px 5px 10px rgba(0,0,0,0.7);
+    color:white;    
 }
 
 .supportingText {
@@ -63,17 +60,18 @@
     font-size: 1.8rem;
     border-radius: 4rem;
     cursor: pointer;
-    border: none;
-    background-image: linear-gradient(to bottom right,red,blue,yellow);
-    color: #f7f9f9;
+    border: 1px solid black;
+    /* background-image: linear-gradient(to bottom right,red,blue,yellow); */
+    color: #000000;
     font-weight: 600;
+    background-color: #32afedb9;
     transition: .3s ease-in-out;
 }
 
 .big-btn .btn:hover ,
 #readMore:hover{
     box-shadow: inset -2px 2px 10px rgba(0, 0, 0, 0.4), inset 2px -2px 10px rgba(0, 0, 0, 0.3), inset -2px -2px 10px rgba(0, 0, 0, 0.2);
-    color: #0cc9ea;
+    color: #f8f1f1;
 }
 
 .videoLink {
